@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#2196f3">
+
+    <title>Home App</title>
+    <link rel="stylesheet" href="bower_components/Framework7/dist/css/framework7.material.min.css">
+    <link rel="stylesheet" href="bower_components/Framework7/dist/css/framework7.material.colors.min.css">
+
+  </head>
+  <body class="theme-cyan ">
+
+    <!-- Login screen -->
+    <div class="login-screen modal-in bg-lightblue layout-dark">
+      <div class="view">
+        <div class="page">
+          <div class="page-content login-screen-content bg-blue text-center">
+
+            <svg style="width: 30%; height: auto; margin: 30px 35% 0 35%;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 33 33" style="enable-background:new 0 0 33 33;" xml:space="preserve" width="512px" height="512px">
+              <g>
+                <path d="M27.813,31.617H5.186c-0.276,0-0.5-0.224-0.5-0.5V12.521c0-0.276,0.224-0.5,0.5-0.5s0.5,0.224,0.5,0.5v18.096h21.627   V12.521c0-0.276,0.224-0.5,0.5-0.5s0.5,0.224,0.5,0.5v18.596C28.313,31.394,28.089,31.617,27.813,31.617z" fill="#FFFFFF"/>
+                <path d="M32.5,17.493c-0.123,0-0.247-0.045-0.343-0.136L16.499,2.57L0.843,17.356c-0.201,0.19-0.518,0.18-0.707-0.02   c-0.19-0.201-0.181-0.517,0.02-0.707L16.156,1.52c0.192-0.183,0.494-0.182,0.687,0l16.001,15.11c0.201,0.19,0.21,0.506,0.021,0.707   C32.765,17.44,32.633,17.493,32.5,17.493z" fill="#FFFFFF"/>
+                <g>
+                  <path d="M20.491,25.981h-7.981c-0.276,0-0.5-0.224-0.5-0.5V17.5c0-0.276,0.224-0.5,0.5-0.5h7.981c0.276,0,0.5,0.224,0.5,0.5v7.981    C20.991,25.757,20.767,25.981,20.491,25.981z M13.009,24.981h6.981V18h-6.981V24.981z" fill="#FFFFFF"/>
+                  <path d="M16.499,25.981c-0.276,0-0.5-0.224-0.5-0.5V17.5c0-0.276,0.224-0.5,0.5-0.5s0.5,0.224,0.5,0.5v7.981    C16.999,25.757,16.776,25.981,16.499,25.981z" fill="#FFFFFF"/>
+                  <path d="M20.49,21.99h-7.981c-0.276,0-0.5-0.224-0.5-0.5s0.224-0.5,0.5-0.5h7.981c0.276,0,0.5,0.224,0.5,0.5    S20.767,21.99,20.49,21.99z" fill="#FFFFFF"/>
+                </g>
+              </g>
+              </svg>
+
+            <div class="login-screen-title">Home App Login</div>
+            <form>
+              <div class="list-block">
+                <ul>
+                  <li class="item-content">
+                    <div class="item-inner">
+                        <input type="text" name="username" placeholder="Enter token here..." style="text-align: center;">
+                    </div>
+                  </li>
+                </ul>
+              </div>
+
+
+              <div class="content-block" style="position: absolute; bottom: 0; width: 100%;">
+                <p class="buttons-row">
+                  <a href="#" class="button button-big button-raised button-fill">Sign in</a>
+                </p>
+                <div class="list-block-label">
+                  <p>Please visit telldus online to accuire your api-key.</p>
+                </div>
+              </div>
+
+
+              <div class="list-block">
+
+
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main">
+
+        <!-- Pages container, because we use fixed navbar and toolbar, it has additional appropriate classes-->
+        <div class="pages toolbar-fixed">
+          <!-- Page, "data-page" contains page name -->
+          <div data-page="index" class="page">
+
+            <!-- Top Navbar. In Material theme it should be inside of the page-->
+            <div class="navbar">
+              <div class="navbar-inner">
+                <div class="center">Home App</div>
+              </div>
+            </div>
+
+
+
+
+            <!-- Scrollable page content -->
+            <div class="page-content">
+              <div class="list-block cards-list">
+                <ul>
+                  <li class="card">
+                    <div class="card-header">Card Header</div>
+                    <div class="card-content">
+                      <div class="card-content-inner">Card content</div>
+                    </div>
+                    <div class="card-footer">Card footer</div>
+                  </li>
+                  <li class="card">
+                    <div class="card-header">Card Header</div>
+                    <div class="card-content">
+                      <div class="card-content-inner">Card content</div>
+                    </div>
+                    <div class="card-footer">Card footer</div>
+                  </li>
+                  ...
+                </ul>
+              </div>
+            </div>
+<a href="#" class="open-popup link floating-button color-blue"><i class="icon icon-plus"></i></a>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="bower_components/Framework7/dist/js/framework7.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "name": "api-event-manager-widhet-examples",
+  "version": "1.0.0",
+  "description": "Examples of javascript consumers for event api",
+  "main": "gulpfile.js",
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-concat": "^2.5.2",
+    "gulp-copy": "0.0.2",
+    "gulp-cssnano": "^2.1.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.0.1",
+    "gulp-uglify": "^1.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/helsingborg-stad/api-event-manager-widget-examples.git"
+  },
+  "author": "",
+  "license": "MIT"
+}
