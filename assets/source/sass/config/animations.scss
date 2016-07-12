@@ -1,0 +1,6 @@
+@for $i from 1 through 10 {
+    .delay-#{$i} {
+        animation-delay: ($i*100)ms !important;
+        -webkit-animation-delay: ($i*100)ms !important;
+    }
+}

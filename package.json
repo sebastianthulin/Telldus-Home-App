@@ -1,10 +1,10 @@
 {
-  "name": "api-event-manager-widhet-examples",
+  "name": "Telldus-Home-App",
   "version": "1.0.0",
-  "description": "Examples of javascript consumers for event api",
+  "description": "Telldus home app",
   "main": "gulpfile.js",
   "dependencies": {
-
+    "telldus-live": "^0.2.1"
   },
   "devDependencies": {
     "gulp": "^3.9.0",
@@ -22,8 +22,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/helsingborg-stad/api-event-manager-widget-examples.git"
+    "url": "https://github.com/sebastianthulin/Telldus-Home-App.git"
   },
-  "author": "",
+  "author": "Sebastian Thulin",
   "license": "MIT"
 }
